@@ -10,7 +10,7 @@ Illustration of the needle detection network. The resolutions of the input and t
 In the "./dataset" directory, we present a portion of the dataset used in our paper. Specifically, the content in the "./dataset/sample" directory represents a sequence of the in-vitro dataset, while the content in the "./dataset/tissue" directory represents a sequence of the in-vivo dataset.
 
 ## Train
-Before training, please modify the parameters in "mlsd_test/configs/mobilev2_mlsd_large_512_base2_bsize24.yaml".
+Before training, please modify the parameters in "./mlsd_test/configs/mobilev2_mlsd_large_512_base2_bsize24.yaml".
 ```bash
 cd mlsd_test
 python train.py
