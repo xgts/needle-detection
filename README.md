@@ -7,7 +7,7 @@ python train.py
 ```
 
 ### Test:
-In the Test_kal directory, please modify the path in the main.py and load the model parameters in the Pre.py, where "../mlsd_test/weight_aug_kal/best.pth" is used for the In-vivo dataset, ".. /mlsd_test/weight_sample/best.pth" is used for the In-vitro dataset.
+In the Test_kal directory, please modify the path in the main.py and load the model parameters in the Pre.py, where "../mlsd_test/weight_aug_kal/test/best.pth" is used for the In-vivo dataset, ".. /mlsd_test/weight_sample/best.pth" is used for the In-vitro dataset.
 ```bash
 cd Test_kal
 python main.py
