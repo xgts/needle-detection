@@ -28,7 +28,7 @@ train:
   adam_epsilon: 1.0e-06
   batch_size: 8
   cache_to_mem: false
-  data_cache_dir: /home/zjp/pangyu/Data/Line_Data/wireframe_cache/
+  data_cache_dir: /Data/Line_Data/wireframe_cache/
   device_ids:
   - 0
   device_ids_str: '0'
@@ -36,10 +36,10 @@ train:
   dropout: 0.1
   early_stop_n: 200
   gradient_accumulation_steps: 1
-  img_dir: /home/zjp/pangyu/Data/Line_train_total_no_black/no_aug/image/
-  label_fn: /home/zjp/pangyu/Data/Line_train_total_no_black/no_aug/train_data_0.9.json
+  img_dir: /Data/Line_train_total_no_black/no_aug/image/
+  label_fn: /Data/Line_train_total_no_black/no_aug/train_data.json
   learning_rate: 0.0001
-  load_from: /home/zjp/pangyu/needle_final/mlsd_test/weight_aug_kal/test_1/best.pth
+  load_from: /needle_final/mlsd_test/weight_aug_kal/test_1/best.pth
   log_steps: 50
   lr_decay_gamma: 0.2
   milestones:
@@ -49,13 +49,13 @@ train:
   milestones_in_epo: true
   num_train_epochs: 50
   num_workers: 0
-  save_dir: /home/zjp/pangyu/needle_final/mlsd_test/weight_aug_kal/test
+  save_dir: /needle_final/mlsd_test/weight_aug_kal/test
   use_step_lr_policy: true
   warmup_steps: 100
   weight_decay: 1.0e-06
   with_cache: false
 val:
   batch_size: 8
-  img_dir: /home/zjp/pangyu/Data/Line_train_total_no_black/no_aug/image/
-  label_fn: /home/zjp/pangyu/Data/Line_train_total_no_black/no_aug/val_data_0.1.json
+  img_dir: /Data/Line_train_total_no_black/no_aug/image/
+  label_fn: /Data/Line_train_total_no_black/no_aug/val_data.json
   val_after_epoch: -1
