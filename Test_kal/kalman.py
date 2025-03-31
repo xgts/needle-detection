@@ -17,7 +17,7 @@ def kalman(path):
     mask_list = sorted(os.listdir(rf'{path}/mask'))
 
     mask_path=os.path.join(path,'mask',mask_list[0])
-    initial_target_box=point(mask_path)
+    initial_target_box=[0,0]
     # if(initial_target_box==[0,0]):
     #     offset_x=0
     #     offset_y=0
