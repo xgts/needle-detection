@@ -49,7 +49,7 @@ train:
   milestones_in_epo: true
   num_train_epochs: 100
   num_workers: 0
-  save_dir: /needle_final/mlsd_test/weight_sample/baseline+loss+amse+msag+aug+hint
+  save_dir: /needle_final/mlsd_test/weight_sample
   use_step_lr_policy: true
   warmup_steps: 100
   weight_decay: 1.0e-06
