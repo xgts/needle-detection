@@ -1,8 +1,8 @@
 import  sys
 sys.path.append('../../Test/')
 
-from mlsd_test.models.mbv2_mlsd import MobileV2_MLSD
-from mlsd_test.models.mbv2_mlsd_large import  MobileV2_MLSD_Large
+from needle_detection_train.models.mbv2_mlsd import MobileV2_MLSD
+from needle_detection_train.models.mbv2_mlsd_large import  MobileV2_MLSD_Large
 
 
 def build_model(cfg):
