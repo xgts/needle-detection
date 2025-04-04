@@ -5,8 +5,8 @@ import torch
 import cv2
 from ptflops import get_model_complexity_info
 
-from mlsd_test.models.mbv2_mlsd_large import MobileV2_MLSD_Large
-from mlsd_test.cfg.default import get_cfg_defaults
+from needle_detection_train.models.mbv2_mlsd_large import MobileV2_MLSD_Large
+from needle_detection_train.cfg.default import get_cfg_defaults
 from Test_kal.util import pred_lines_1
 
 
