@@ -7,7 +7,7 @@ from utils.comm import create_dir
 from cfg.default import  get_cfg_defaults
 from optim.lr_scheduler import WarmupMultiStepLR
 
-from mlsd_test.data import  get_train_dataloader, get_val_dataloader
+from needle_detection_train.data import  get_train_dataloader, get_val_dataloader
 from learner import Simple_MLSD_Learner
 from models.build_model import  build_model
 
