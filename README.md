@@ -24,7 +24,9 @@ python train.py
 ```
 
 ## Test
-- In the "./Test_kal" directory, please modify the path in the main.py and load the model parameters in the Pre.py, where "../needle_detection_train/weight_aug_kal/test/best.pth" is used for the In vivo dataset, ".. /needle_detection_train/weight_sample/best.pth" is used for the In vitro dataset.
+- In the "./Test_kal" directory, please modify the path in the main.py and load the model parameters in the Pre.py before testing.
+- To test on the In vivo dataset, load "../needle_detection_train/weight_aug_kal/test/best.pth".
+- To test on the In vitro dataset, load ".. /needle_detection_train/weight_sample/best.pth".
 ```bash
 cd Test_kal
 python main.py
