@@ -7,7 +7,7 @@
 - Illustration of the needle detection network. The resolutions of the input and the features output by each Atrous Multi-Scale Encoding (AMSE) block are annotated. The symbol 'D' represents the dilation rate in the AMSE blocks. 'H'and 'W' represent the height and width of the video frame.
 
 ## Dataset
-In the "./dataset" directory, we present a portion of the dataset used in our paper. Specifically, the content in the "./dataset/sample" directory represents a sequence of the In vitro dataset, while the content in the "./dataset/tissue" directory represents a sequence of the In vivo dataset.
+In the "./dataset" directory, we present a portion of the dataset used in our paper. Specifically, the content in the "./dataset/sample" directory represents a sequence of the in vitro dataset, while the content in the "./dataset/tissue" directory represents a sequence of the in vivo dataset.
 
 ## Prerequisites
 - Linux
@@ -15,7 +15,7 @@ In the "./dataset" directory, we present a portion of the dataset used in our pa
 - CPU or NVIDIA GPU + CUDA CuDNN
 
 ## Result
-The green point is the ground truth, and the red point is the prediction result.
+The following are the results in the in vivo and in vitro datasets respectively. Among them, the green dots are the ground truth, and the red dots are the prediction results.
 <img src="https://github.com/xgts/needle-detection/blob/master/pic/tissue.png" width="800"><br/>
 <img src="https://github.com/xgts/needle-detection/blob/master/pic/sample.png" width="800"><br/>
 
@@ -28,8 +28,8 @@ python train.py
 
 ## Test
 - In the "./Test_kal" directory, please modify the path in the main.py and load the model parameters in the Pre.py before testing.
-- To test on the In vivo dataset, load "../needle_detection_train/weight_aug_kal/test/best.pth".
-- To test on the In vitro dataset, load ".. /needle_detection_train/weight_sample/best.pth".
+- To test on the in vivo dataset, load "../needle_detection_train/weight_aug_kal/test/best.pth".
+- To test on the in vitro dataset, load ".. /needle_detection_train/weight_sample/best.pth".
 ```bash
 cd Test_kal
 python main.py
