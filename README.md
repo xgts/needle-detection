@@ -9,6 +9,13 @@ Illustration of the needle detection network. The resolutions of the input and t
 ## Dataset
 In the "./dataset" directory, we present a portion of the dataset used in our paper. Specifically, the content in the "./dataset/sample" directory represents a sequence of the In vitro dataset, while the content in the "./dataset/tissue" directory represents a sequence of the In vivo dataset.
 
+## Environment
+```bash
+python 3.8
+cuda 11.3
+torch 1.11.0
+```
+
 ## Result
 
 ## Train
