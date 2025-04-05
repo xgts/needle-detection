@@ -16,8 +16,8 @@ In the "./dataset" directory, we present a portion of the dataset used in our pa
 
 ## Result
 The green point is the ground truth, and the red point is the prediction result.
-<img src="https://github.com/xgts/needle-detection/blob/master/pic/tissue.png" width="500"><br/>
-<img src="https://github.com/xgts/needle-detection/blob/master/pic/sample.png" width="500"><br/>
+<img src="https://github.com/xgts/needle-detection/blob/master/pic/tissue.png" width="800"><br/>
+<img src="https://github.com/xgts/needle-detection/blob/master/pic/sample.png" width="800"><br/>
 
 ## Train
 - Before training, please modify the parameters in "./needle_detection_train/configs/mobilev2_mlsd_large_512_base2_bsize24.yaml".
