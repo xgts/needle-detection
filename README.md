@@ -11,9 +11,9 @@ In the "./dataset" directory, we present a portion of the dataset used in our pa
 
 ## Environment
 ```bash
-python 3.8
-cuda 11.3
-torch 1.11.0
+python==3.8
+cuda==11.3
+torch==1.11.0
 ```
 
 ## Result
