@@ -20,9 +20,11 @@ The following are the results in the in vivo and in vitro datasets respectively.
 <img src="https://github.com/xgts/needle-detection/blob/master/pic/sample.png" width="800"><br/>
 
 ## Train
-- Before training, please modify the parameters in "./needle_detection_train/configs/mobilev2_mlsd_large_512_base2_bsize24.yaml".
+- Run needle_preprocess.py to convert the mask image into JSON format.
+- Modify the parameters in "./needle_detection_train/configs/mobilev2_mlsd_large_512_base2_bsize24.yaml".
 ```bash
 cd needle_detection_train
+python needle_preprocess.py
 python train.py
 ```
 
