@@ -1,4 +1,4 @@
-# NDE 
+# Needle Detection and Estimation 
 ## Model
 <img src="https://github.com/xgts/needle-detection/blob/master/pic/framework.jpg" width="800"><br/>
 - Overview of the proposed framework. The dashed box indicates a complete tracking process for a frame. We use "+" to highlight the positions in images.
